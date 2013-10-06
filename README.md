@@ -28,7 +28,9 @@ Connections:
 Usage
 -----
 Run
+
     python program.py <filename> <serial port>
+ 
 where `<filename>` is the name of the ASM/HEx file and `<serial port>` is the optional name of the serial port the Arduino is connected to.
 
 Serial Interface
