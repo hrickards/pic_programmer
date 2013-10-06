@@ -9,6 +9,8 @@ The arduino code's heavily based upon Soranne/Ronan Gaillard's PIC programming p
 
 See `lights.asm` for an example assemly file.
 
+`gpasm` and `gplink` are required, and are available in the `gputils` on debian and variants.
+
 Circuit
 -------
 See `circuit.jpg` for visual layout (the LEDs are not required for programming).
