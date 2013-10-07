@@ -1,6 +1,8 @@
 PIC 16F627A Programmer
 ======================
 
+**TLDR: Setup the circuit and run `python program.py program.asm`.**
+
 Provides an Arduino sketch and python script to program a PIC 16F627A from an asm file. May work with other chips that implement the same programming interface (628A/648A).
 
 Only tested with linux, and likely to need at least minor tweaks to work with other platforms.
@@ -13,8 +15,8 @@ See `lights.asm` for an example assemly file.
 
 Circuit
 -------
-See `circuit.jpg` for visual layout (the LEDs are not required for programming).
-![Circuit Layout](https://raw.github.com/hrickards/pic_programmer/master/circuit.jpg)
+See `circuit.svg` and `circuit.jpg` for a circuit diagram and photograph(the LEDs are not required for programming).
+![Circuit Layout](https://raw.github.com/hrickards/pic_programmer/master/circuit.svg)
 
 Connections:
   - Pin 6 on arduino to RB6 on pic
