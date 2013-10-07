@@ -23,7 +23,7 @@ if extension == "asm":
 
     # Run gpasm & gplink to compile the ASM into HEX
     call(["gpasm", "-c", filename])
-    call(["gplink", base + ".o", "-o", hfilename])
+    call(["gplink", "-q", base + ".o", "-o", hfilename])
 # We don't need to compile if it's already a HEX file
 elif extension == "hex":
     # The hex filename is just the passed filename
