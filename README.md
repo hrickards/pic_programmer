@@ -16,7 +16,7 @@ See `lights.asm` for an example assemly file.
 Circuit
 -------
 See `circuit.svg` and `circuit.jpg` for a circuit diagram and photograph(the LEDs are not required for programming).
-![Circuit Layout](https://raw.github.com/hrickards/pic_programmer/master/circuit.svg)
+![Circuit Layout](https://rawgithub.com/hrickards/pic_programmer/master/circuit.svg)
 
 Connections:
   - Pin 6 on arduino to RB6 on pic
